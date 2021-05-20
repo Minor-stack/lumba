@@ -2,14 +2,14 @@ This project repository is made in the frame of M. Valderrama (FPMS-UMONS, Belgi
 
 To do so we should create or use an existing driver, create an application (human interaction interface) and test it on the board.
 
-The development board used in this project was the Terrasic DE1-SoC. The accelerometer sensor peripheric model is LIS3LV02DL. All the information provided in the tutorial comes from personal knowledge, experiment and from the .PDF documentation that can be found in the "References" folder.
+The development board used in this project was the Terrasic DE1-SoC. The accelerometer sensor peripheric model is LIS3LV02DL. All the information provided in the tutorial comes from personal knowledge, experiment and from the .PDF documentation that can be found in the "projethardware_G10_ACC" folder.In this file you will find all .vhd files and test bench(es) corresponding to their tasks for simulation.The .qar file is the archived project under Quartus. The .sof file is the binary used to flash the FPGA board with the code of the driver and the application.
 
-In this project i learn how to drive an accelerometer sensor mentionned above through I2C serial bus interface with an Altera Cyclone V SoC using Quartus and this starting from a simple code C which did the same job on a PIC card (accelorometer.c).
-The .qar file is the archived project under Quartus. The .sof file is the binary used to flash the FPGA board with the code of the driver and the application.
+In this project we learn how to drive an accelerometer sensor mentionned above through I2C serial bus interface with an Altera Cyclone V SoC using Quartus and this starting from a simple code C which did the same job on a PIC card (accelorometer.c).
+
 
 The Présentation in .ppt is a powerpoint presenting the project and the Tutorial_Driving_Accelerometer_on_DE1_SoC-FPMs.pdf is a tutorial to reproduce the project made.
 
-In the .qar file you will find all .vhd files and test bench(es) corresponding to their tasks for simulation.
+
 
 The I2C_Driver.vhd file is the program that manages the I2C communication with the device. It is inspired to a i2c_master.vhd file found on the internet (https://www.digikey.com/eewiki/pages/viewpage.action?pageId=10125324).
 
