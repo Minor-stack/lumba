@@ -16,3 +16,5 @@ The I2C_Driver.vhd file is the program that manages the I2C communication with t
 The Appli.vhd is the program that includes the state machine of the sensor.
 
 The Appli_Driver.vhd is grouping the I2C driver with the Application where you only need to name the pins you want to use in order to flash it on the SoC. The mapping was done in the DE1SoC.vhd file.
+
+Conctatc: Minor.LUMBANSIMBA@student.umons.ac.be
