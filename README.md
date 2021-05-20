@@ -1,4 +1,4 @@
-This project repository is made in the frame of M. Valderrama (FPMS-UMONS, Belgium) course entitled Hardware Software Platform. The objective of this course is to develop and create a tutorial explaining how to use a development tool (Altera Quartus EDA in my case), platform and peripheral, to develop tests and to evaluate the device, its driver and its human interface using a test bench for simulation.
+This project repository is made in the frame of M. Valderrama (FPMS-UMONS, Belgium) course entitled Hardware Software Platform by Minor Lumba and Christian Leumalieu.our team mane is G10 ACC. The objective of this course is to develop and create a tutorial explaining how to use a development tool (Altera Quartus EDA in my case), platform and peripheral, to develop tests and to evaluate the device, its driver and its human interface using a test bench for simulation.
 
 To do so we should create or use an existing driver, create an application (human interaction interface) and test it on the board.
 
